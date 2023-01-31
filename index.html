@@ -19,7 +19,13 @@
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
+    <script> 
+      $(function(){
+        $("#header").load("./header.html"); 
+        $("#footer").load("./footer.html"); 
+      });
+      </script> 
+      </head>
     <!-- Want to add Bootstrap? -->
     <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
     
@@ -27,12 +33,16 @@
   
   <body>
 
-    <header id="header">
-<!-- comment out image      <img src="logo.jpg"> -->
-      <h1>Samuel D. Bellows</h1>
+    <div id="header"></div>
+    <!--
+    <header id="headerold">
+    -->
+    <!-- comment out image      <img src="logo.jpg"> -->
+    <!----  <h1>Samuel D. Bellows</h1>
       <br> <br> 
-      
+     -->
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <!--
       <ul class="main-menu">
         <li><a href="#home">home</a></li>
         <li><a href="#experience">experience &amp; cv</a></li>
@@ -42,7 +52,8 @@
         <li><a href="#acousticsanimations">acoustics animations</a></li>
       </ul>                 
     </header>
-   
+      -->
+
     <div id="container">
       <div class="inner">
         <div id="content"> 
@@ -149,8 +160,8 @@
            <div id="projects" class="content-region hide">
             
             <p>
-               
-              <br> <a href="./sogeum_directivity.html">Sogeum Directivity</a>
+              
+              <!-- <br> <a href="./sogeum_directivity.html">Sogeum Directivity</a> -->
             </p>
           </div>
           
@@ -165,8 +176,14 @@
       </div>
     </div>
 
+
+    <div id="footer"></div>
+
+    <!--
     <footer>  
+    -->
       <!-- help here: https://www.sitepoint.com/github-profile-readme/      -->
+      <!--
       <div id="badges" align="center">
         <a href="https://www.linkedin.com/in/samuel-bellows-7b5195131/" target="_blank">
           <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -180,9 +197,9 @@
           <img src="https://img.shields.io/badge/gmail-white?logo=gmail&logoColor=red&style=for-the-badge" alt="Github Badge"/>
         </a>
 
-    </div>
+      </div>
     </footer>
-    
+  -->
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
     
