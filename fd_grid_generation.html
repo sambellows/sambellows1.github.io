@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Sam Bellows, Acoustician</title>
+    <meta name="description" content="Sam Bellows acoustics BYU leishman music acoustician bio contact research projects">
+    <meta name="author" content="Information about the author here">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+  
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <script> 
+      $(function(){
+        $("#header").load("./header.html"); 
+        $("#footer").load("./footer.html"); 
+      });
+      </script> 
+      </head>
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    
+  </head>
+  
+  <body>
+
+    <div id="header"></div>
+    
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+
+            <img src="./img/asteroid.gif" width="300" height="300" class="center">  
+            <br>
+            <h2>Grid Generation for Finite Difference Methods</h2>
+            <br>
+
+        <p>
+          An important technique for finite-difference methods (FDM) requires grid generation to create a structured mesh. Whereas finite element methods (FEM)
+          and boundary element methods (BEM) commonly employ unstructured meshes, finite-difference methods require an underlying grid to numerically estimate derivatives.
+          Previously, FDM have been restricted to grids based on known coordinate systems, e.g., cartesian or polar coordinates, leading to well-known 'staircase' type grids at irregular boundaries. 
+          However, using curvilinear coordinates, one can generate conformal grids to apply the FDM to arbitrarily shaped domains. 
+          
+          
+        </p>  
+          
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
+</html>
