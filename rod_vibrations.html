@@ -43,11 +43,26 @@
 
             <center><h2>Vibrations of Rods</h2></center>
 
-            <br><br>
-            <center><img src="./img/simply_supported_rod.gif" width="350" height="350"/></center>
-            <center>Eigenfunctions for a vibrating string fixed at both ends.</center>
+            For rods, the general form is 
+
+            $A\sin k_n x + B\cos k_n x + C \sinh k_nx + D\cosh k_n x$
+
+
+
+            For a simply suppored rod at both ends
+
+            $\Psi_n(x) = \sin k_nx$ 
+
 
             <br><br>
+            <center><img src="./img/simply_supported_rod.gif" width="350" height="350"/></center>
+            <center>Eigenfunctions for a simply supported rod at both ends.</center>
+
+            <br><br>
+
+            For a free-free rod at both ends
+
+            $\Psi_n(X) = \sin k_n x + \sinh k_nx - \frac{(\sin k_n L- \sinh k_n L)}{(\cos k_n L - \cosh k_n L)}(\cos k_n x + \cosh k_n x)$
 
 
             <br><br>
@@ -56,18 +71,29 @@
 
             <br><br>
 
+            For a rod clamped at both ends
 
-            <br><br>
-            <center><img src="./img/cantilever_rod.gif" width="350" height="350"/></center>
-            <center>Eigenfunctions for a vibrating string fixed at one end and free at the other.</center>
-
-            <br><br>
+            $\Psi_n(x) = \sin k_n x - \sinh k_nx - \frac{(\sin k_n L- \sinh k_n L)}{(\cos k_n L - \cosh k_n L)}(\cos k_n x - \cosh k_n x)$
 
             <br><br>
             <center><img src="./img/clamped_clamped_rod.gif" width="350" height="350"/></center>
-            <center>Eigenfunctions for a vibrating string fixed at one end and free at the other.</center>
+            <center>Eigenfunctions for a vibrating rod clamped at both ends.</center>
 
             <br><br>
+
+            For a cantilever rod (clamped at one end and free on the other)
+
+            $\Psi_n(x) = \sin k_n x - \sinh k_nx - \frac{(\sinh k_n L + \sin k_n L)}{(\cosh k_b L + \cos k_b L)}(\cos k_n x - \cosh k_n x)$
+
+
+
+            <br><br>
+            <center><img src="./img/cantilever_rod.gif" width="350" height="350"/></center>
+            <center>Eigenfunctions for a rod clamped at one end and free on the other.</center>
+
+            <br><br>
+
+
 
 
 
